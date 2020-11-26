@@ -9,8 +9,11 @@
     {
       "description": "foo",
       "request": {
-        "method": "GET",
-        "path": "/foo"
+        "method": "DELETE",
+        "path": "/foo",
+        "body": {
+          "content": "this one"
+        }
       },
       "response": {
         "status": 200,
@@ -25,7 +28,7 @@
   ],
   "metadata": {
     "pactSpecification": {
-      "version": "1.0.0"
+      "version": "2.0.0"
     }
   }
 }
